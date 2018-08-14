@@ -1,7 +1,6 @@
 # Architecture + Product Diagram. 
 
-![Architecture_diagram](/Architecture_diagram.pdf/)
-
+![alternativetext](/Architecture_diagram.pdf/)
 
 
 These creates and contains: 
