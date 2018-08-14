@@ -12,7 +12,7 @@ The product is a classic web service. A “frontend” application is serving th
 - On an internal API service
 - On an external API services
 
-My Assuming
+My Assumptions.
 
 1. This is not the first product that this company deploys, that's why it needs a high-end solution for its products.
 2. This is not a startup is a medium to large company that has high requirements for their published apps, otherwise the stack will be more open source in the API, Security, integration areas and much cheaper in the CDN/ GTM space.
