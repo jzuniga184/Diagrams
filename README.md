@@ -1,6 +1,6 @@
 # Architecture + Product Diagram. 
 
-![alternativetext](Architecture_diagram.pdf)
+[Architecture_diagram2.pdf](https://github.com/jzuniga184/Diagrams/files/2285318/Architecture_diagram2.pdf)
 
 
 These creates and contains: 
