@@ -1,17 +1,30 @@
 # Architecture + Product Diagram. 
 
-[Architecture_diagram2.pdf](https://github.com/jzuniga184/Diagrams/files/2285318/Architecture_diagram2.pdf)
+The infrastructre diagrams attached here show a proposed architecture for medium/large sized company that needs to have their products on premise but can also expand to the cloud withauth changing the technology landscape that much. This does not focuses on any cloud centric approach. 
 
+## Use Case:
 
-These creates and contains: 
+The product is a classic webservice. A “frontend” application is serving the requests. This frontend application depends:
 
-*Jenkins node 
-*Docker Swarm cluster of 1 master and 2 slaves
-* CI/CD Jenkins scripted pipeline to deploy the app upon a change.
+- On a in-memory database for caching
+- On a RDBMS database for content management
+- On an internal API service
+- On an external API services
 
-## Getting Started
+The documentation also explains several key items for the evaluation of this infrastructre as:
 
-Hygieia is a single, configurable, easy-to-use dashboard to visualize near real-time status of the entire delivery pipeline. The health of the continuous delivery pipeline, from code commit to production deployment, with all the necessary information around health and quality of the software, is essential for any DevOps Organization.
+- Performance and stability monitoring.
+- Capacity planning and scalability.
+- Potential improvements or evolution.
+
+### Hihligths of the Diagrams.
+
+The repo includes two diagrams:
+
+[Architecture_diagram2.pdf](https://github.com/jzuniga184/Diagrams/files/2285318/Architecture_diagram2.pdf) -This is a basic architecture diagram at 10k that inter-relates the diferent componenets of the proposed architecture.
+
+[Architecture_diagram.pdf](https://github.com/jzuniga184/Diagrams/files/2285318/Architecture_diagram2.pdf)- This is a suggestion of products to use based on my personal expirience with them, many more can fit but I have the most expirience with these.
+
 
 ### Prerequisites
 
