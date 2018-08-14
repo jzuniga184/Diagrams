@@ -1,6 +1,6 @@
 # Architecture + Product Diagram. 
 
-The infrastructure diagrams attached here show a proposed high-level architecture for medium/large sized company that needs to have their products on premise but can also expand to the cloud without changing the technology landscape and integrate easily. 
+The infrastructure diagrams attached here show a proposed high-level architecture for a medium/large sized company that needs to have their products on premise but can also expand to the cloud without changing the technology landscape and integrate easily. 
 
 
 ## Use Case:
@@ -64,11 +64,15 @@ This is expensive but is the leader of APM for a reason, you can really know the
 
 ### Capacity planning and scalability.
 
-Here the proposals go into two technologies, first the use of APM tools to monitor the exact need of every machine deploy and the use of Docker images with the binaries need it to run in order to be scalable. 
+Here the proposals goes into several technologies, first the use of APM tools to monitor the exact need of every machine deploy and the use of Docker images with the binaries need it to run in order to be scalable. 
 
 So, when you assigned certain amount of resources to a container you can verify with the APM tool how much free memory, CPU, open files, etc. is has this allow to modify / replace this container easily by running the pipeline again and changing the IaC for that specific product / App. 
 
 To take this to the next level Kubernetes could be used to allow the immutability of the infrastructure and use the auto scaling to avoid any "running out of resources" situation. Not only that but will ensure the "state" of our application depending on our needs making the capacity and scalability much easier.
+
+On the last mile, we also need a good CDN provider than can give a seamless experience to all our users and can serve the content of our like in the edge at very high speeds no matter where our clients are. 
+
+Part of the scalability is also the ability to failover to a redundant data center or the usage of our cloud solutions to always be online 24x7. Also, it allows us to deploy code to Production and Pre-Production with barely no downtime as we can switch between environments in the flick of and eye with a new stack ready to serve requests.
 
 
 ### Potential improvements or evolution.
